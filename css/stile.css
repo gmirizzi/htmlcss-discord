@@ -213,3 +213,12 @@ header .links a:last-child {
     background-color: black;
     color: white;
 }
+
+main #collegamento {
+    background-image: url(../img/stars.svg);
+    background-size: cover;
+    width: 50%;
+    margin: 0 auto;
+    font-size: 1.5em;
+    padding: 1.5em;
+}
