@@ -22,7 +22,7 @@ header {
     position: relative;
 }
 
-header a {
+header a, main a{
     color: black;
     background-color: white;
     padding: .4em .7em;
@@ -64,6 +64,7 @@ li a {
 
 a {
     text-decoration: none;
+    line-height: 1em;
 }
 
 header .content {
@@ -132,6 +133,12 @@ footer #container {
     text-align: left;
 }
 
+footer #container::after{
+    content: "";
+    display: table;
+    clear: right;
+}
+
 #side {
     width: 35%;
     display: inline-block;
@@ -142,6 +149,7 @@ footer #links {
     display: inline-block;
     vertical-align: middle;
     margin-bottom: 2em;
+    float: right;
 }
 
 #links .section {
@@ -167,4 +175,41 @@ select {
     color: unset;
     border: none;
     margin: 1em 0;
+}
+
+#language {
+    line-height: 1em;
+}
+
+#language img{
+    vertical-align: middle;
+    height: 1em;
+}
+
+footer i {
+    color: white;
+}
+
+#social a{
+    margin-right: 1em;
+}
+
+i {
+    height: 1em;
+    width: 1em;
+}
+
+.links {
+    height: 3em;
+    margin: 1em;
+}
+
+main a {
+    background-color: cornflowerblue;
+    color: white;
+}
+
+header .links a:last-child {
+    background-color: black;
+    color: white;
 }
