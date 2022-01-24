@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 400px;
+    background-image: url("../img/jumbo.png");
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+nav {
+    width: 70%;
+    margin: 0 auto;
+    line-height: 2em;
+    text-align: center;
+    padding-top: 10px;
+    font-size: .9rem;
+}
+
+nav img {
+    vertical-align: middle;
+    float: left;
+}
+
+nav > a {
+    float: right;
+    color: black;
+    background-color: white;
+    padding: 0 .7em;
+    border-radius: 1em;
+}
+
+ul {
+    list-style: none;
+    display: inline-block;
+}
+
+li {
+    display: inline-block;
+    margin: 0 1em;
+}
+
+li a {
+    color: unset;
+}
+
+a {
+    text-decoration: none;
+}
+
