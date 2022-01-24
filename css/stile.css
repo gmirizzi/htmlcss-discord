@@ -63,9 +63,12 @@ a {
     text-decoration: none;
 }
 
-.content {
-    text-align: center;
+header .content {
     width: 40%;
+    text-align: center;
+}
+
+.content {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -85,5 +88,36 @@ a {
     margin: .5em;
 }
 
+main {
+    background-color: lightgrey;
+}
 
+section {
+    height: 700px;
+    position: relative;
+}
 
+section .content {
+    width: 70%;
+}
+
+section .content img {
+    width: calc(70% - 2em);
+    vertical-align: middle;
+}
+
+.text {
+    width: calc(30% - 2em);
+    display: inline-block;
+    margin: 0 1em;
+    vertical-align: middle;
+}
+
+main section:last-child .text{
+    width: 100%;
+    text-align: center;
+}
+
+main section:last-child img{
+    width: 100%;
+}
