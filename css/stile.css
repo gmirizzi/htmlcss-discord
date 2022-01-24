@@ -96,7 +96,7 @@ main {
 }
 
 section {
-    height: 900px;
+    height: 800px;
     position: relative;
 }
 
@@ -216,9 +216,15 @@ header .links a:last-child {
 
 main #collegamento {
     background-image: url(../img/stars.svg);
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
     width: 50%;
     margin: 0 auto;
     font-size: 1.5em;
     padding: 1.5em;
+    font-weight: bold;
+}
+
+section:last-child {
+    height: 1000px;
 }
