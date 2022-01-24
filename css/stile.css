@@ -52,7 +52,7 @@ ul {
     vertical-align: middle;
 }
 
-li {
+header li {
     display: inline-block;
     margin: 0 1em;
 }
@@ -95,7 +95,7 @@ main {
 }
 
 section {
-    height: 700px;
+    height: 900px;
     position: relative;
 }
 
@@ -103,7 +103,7 @@ section .content {
     width: 70%;
 }
 
-section .content img {
+section .content .img {
     width: calc(70% - 2em);
     vertical-align: middle;
 }
@@ -116,3 +116,55 @@ section .content img {
     text-align: left;
 }
 
+main section:nth-child(odd) {
+    background-color: white;
+}
+
+footer {
+    background-color: rgb(24, 24, 24);
+    color: white;
+}
+
+footer #container {
+    width: 70%;
+    margin: 0 auto;
+    padding: 3em 0;
+    text-align: left;
+}
+
+#side {
+    width: 35%;
+    display: inline-block;
+}
+
+footer #links {
+    width: 60%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 2em;
+}
+
+#links .section {
+    width: 25%;
+    display: inline-block;
+    float: left;
+}
+
+footer h1 {
+    color:cornflowerblue;
+}
+
+.section .title {
+    font-size: 1em;
+}
+
+.section li {
+    margin: .2em 0;
+}
+
+select {
+    background-color: transparent;
+    color: unset;
+    border: none;
+    margin: 1em 0;
+}
