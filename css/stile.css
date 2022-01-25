@@ -85,6 +85,13 @@ section {
     position: relative;
 }
 
+svg {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: lightgray;
+}
+
 .content {
     position: absolute;
     top: 50%;
@@ -94,6 +101,10 @@ section {
 
 main section:nth-child(odd) {
     background-color: white;
+}
+
+main section:nth-child(2) svg {
+    color: white;
 }
 
 section:last-child {
