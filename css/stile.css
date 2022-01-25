@@ -22,7 +22,7 @@ header {
     position: relative;
 }
 
-header a, main a{
+header a, main a, footer footer a{
     color: black;
     background-color: white;
     padding: .4em .7em;
@@ -141,7 +141,7 @@ section .content .img {
     text-align: left;
 }
 
-main a {
+main a, footer footer a {
     background-color: cornflowerblue;
     color: white;
 }
@@ -164,8 +164,6 @@ footer {
 }
 
 footer #container {
-    width: 70%;
-    margin: 0 auto;
     padding: 3em 0;
     text-align: left;
 }
@@ -241,3 +239,26 @@ i {
     margin: 1em;
 }
 
+footer footer, hr, footer #container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+footer footer {
+    padding: 1em 0;
+}
+
+footer footer img {
+    float: left;
+}
+
+footer footer a {
+    float: right;
+    line-height: 1em;
+}
+
+footer footer::after {
+    content: "";
+    display: table;
+    clear: both;
+}
