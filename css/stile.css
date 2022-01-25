@@ -71,11 +71,33 @@ header .content {
     width: 40%;
 }
 
+header .links a:last-child {
+    background-color: black;
+    color: white;
+}
+
+main {
+    background-color: lightgrey;
+}
+
+section {
+    height: 800px;
+    position: relative;
+}
+
 .content {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+main section:nth-child(odd) {
+    background-color: white;
+}
+
+section:last-child {
+    height: 1000px;
 }
 
 .content h1{
@@ -89,15 +111,6 @@ header .content {
 .content a {
     font-size: 1.1rem;
     margin: .5em;
-}
-
-main {
-    background-color: lightgrey;
-}
-
-section {
-    height: 800px;
-    position: relative;
 }
 
 section .content {
@@ -117,8 +130,21 @@ section .content .img {
     text-align: left;
 }
 
-main section:nth-child(odd) {
-    background-color: white;
+main a {
+    background-color: cornflowerblue;
+    color: white;
+}
+
+
+main #collegamento {
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50%;
+    margin: 0 auto;
+    font-size: 1.5em;
+    padding: 1.5em;
+    font-weight: bold;
 }
 
 footer {
@@ -204,27 +230,3 @@ i {
     margin: 1em;
 }
 
-main a {
-    background-color: cornflowerblue;
-    color: white;
-}
-
-header .links a:last-child {
-    background-color: black;
-    color: white;
-}
-
-main #collegamento {
-    background-image: url(../img/stars.svg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 50%;
-    margin: 0 auto;
-    font-size: 1.5em;
-    padding: 1.5em;
-    font-weight: bold;
-}
-
-section:last-child {
-    height: 1000px;
-}
